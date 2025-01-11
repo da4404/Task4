@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeText(View view) {
-        text.setText("Oh, yea, I’ve been clicked!");
+        text.setText(" Oh, yea, I’ve been clicked!");
     }
 }
