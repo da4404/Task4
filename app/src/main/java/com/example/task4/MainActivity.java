@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
     public void changeText(View view) {
         numberOfClick++;
         text.setText("This is a click number: "+numberOfClick);
+        if (numberOfClick==6)
+        {
+            text.setText("Enough to click. Go to new start!");
+            numberOfClick=0;
+        }
 
     }
 }
